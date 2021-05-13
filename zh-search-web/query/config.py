@@ -1,0 +1,1 @@
+LOG_DIR = '../sample_logs' # path to log files

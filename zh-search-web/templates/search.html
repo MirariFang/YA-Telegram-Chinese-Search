@@ -1,0 +1,64 @@
+<!-- Search Bar -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Telegram Chinese Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+
+<body>
+    <div class="center">
+        <h1>Telegram Chinese Search</h1>
+    </div>
+    <form class="example" method="get" action="" style="margin:auto;max-width:600px">
+        <input type="text" placeholder="Search keyword here..." name="query">
+        <button type="submit">search
+        </button>
+        <input type="radio" id="term_at_a_time" name="advanced_search_mode" value="term_at_a_time" checked>
+        <label for="term_at_a_time">Term at a time</label>
+        <input type="radio" id="BM25" name="advanced_search_mode" value="BM25">
+        <label for="BM25">Okapi BM25</label>
+    </form>
+    <div class="query-string">
+        {% if data and data.query_string %}
+        Searched for {{data.query_string}}
+        {% endif %}
+    </div>
+    <div class="container">
+        {% if data %}
+        <div class="sub-container">
+            <h3>Simple search results: </h3>
+            {% if data.naive_results %}
+            {% for result in data.naive_results %}
+            <div class="message-box">
+                <div class="username">{{result.username}}</div>
+                <div class="time">{{result.date}} {{result.time}}</div>
+                <div class="message-text">{{result.message}}</div>
+            </div>
+            {% endfor %}
+            {% else %}
+            <div>No related histories found!</div>
+            {% endif %}
+        </div>
+        <div class="sub-container">
+            <h3>Advanced search results: </h3>
+            {% if data.advanced_results %}
+            {% for result in data.advanced_results %}
+            <div class="message-box">
+                <div class="username">{{result.username}}</div>
+                <div class="time">{{result.date}} {{result.time}}</div>
+                <div class="message-text">{{result.message}}</div>
+            </div>
+            {% endfor %}
+            {% else %}
+            <div>No related histories found!</div>
+            {% endif %}
+        </div>
+        {% endif %}
+
+    </div>
+</body>
+
+</html>

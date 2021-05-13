@@ -1,0 +1,86 @@
+/* CSS for search file */
+div.center {
+    margin: auto;
+    text-align: center;
+}
+div.query-string {
+  width: 50%;
+  margin: auto;
+  padding-top: 1.5%;
+  font-style: italic;
+  color:darkgray;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+div.container {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+div.sub-container {
+  padding: 10px;
+  width: 50%;
+}
+div.message-box {
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid lightblue;
+  border-bottom: 1px solid lightblue;
+}
+div.message-box:nth-child(n+3) {
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 0px;
+}
+div.username {
+  font-size: medium;
+}
+div.time {
+  font-size: small;
+  color: gray;
+}
+div.message-text {
+  font-size: large;
+  word-wrap: break-word;
+  display: block;
+}
+body {
+    font-family: Arial;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  h1 {
+      font-size: larger;
+      font-weight: bold;
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

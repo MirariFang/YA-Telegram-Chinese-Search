@@ -1,0 +1,8 @@
+emoji==1.2.0
+Flask==2.0.0
+Jinja2~=3.0
+numpy==1.19.5
+PySocks==1.7.1
+Telethon==1.10.10
+nltk==3.6.2
+requests==2.25.1

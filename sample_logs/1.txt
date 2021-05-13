@@ -1,0 +1,208 @@
+[META] 197 okkkoook 2021-05-12 00:34:45+00:00
+[MESSAGE] 但是之后查询的话感觉第二种就是O（1）了
+[META] 198 mirarifang 2021-05-12 00:34:55+00:00
+[MESSAGE] 一个展示高级结果 另一个展示普通的结果
+[META] 199 okkkoook 2021-05-12 00:34:57+00:00
+[MESSAGE] 可以自己与自己较量嘛
+[META] 200 mirarifang 2021-05-12 00:35:02+00:00
+[MESSAGE] 嗯
+[META] 201 okkkoook 2021-05-12 00:35:03+00:00
+[MESSAGE] 可以可以
+[META] 202 mirarifang 2021-05-12 00:35:15+00:00
+[MESSAGE] 速度不是问题 反正咱聊天记录一共也没多少
+[META] 203 okkkoook 2021-05-12 00:35:28+00:00
+[MESSAGE] 这么尴尬
+[META] 204 mirarifang 2021-05-12 00:35:46+00:00
+[MESSAGE] 这个属于正常吧 毕竟一般聊天记录也不会太长
+[META] 205 mirarifang 2021-05-12 00:35:57+00:00
+[MESSAGE] 不可能说几个人聊天聊出几百M数据
+[META] 206 okkkoook 2021-05-12 00:36:22+00:00
+[MESSAGE] 我感觉我微信聊天记录日积月累已经好几个G了
+[META] 207 okkkoook 2021-05-12 00:36:32+00:00
+[MESSAGE] 我去看看我的微信聊天记录
+[META] 208 mirarifang 2021-05-12 00:37:00+00:00
+[MESSAGE] 哈哈哈哈确实
+[META] 209 mirarifang 2021-05-12 00:37:07+00:00
+[MESSAGE] 不过咱这个只负责一个群聊
+[META] 210 mirarifang 2021-05-12 00:37:22+00:00
+[MESSAGE] 而且微信占大头的估计都是图片视频那些
+[META] 211 mirarifang 2021-05-12 00:37:29+00:00
+[MESSAGE] 咱这个也不牵扯到多媒体
+[META] 212 okkkoook 2021-05-12 00:37:37+00:00
+[MESSAGE] 那确实
+[META] 213 okkkoook 2021-05-12 00:37:56+00:00
+[MESSAGE] 也不知道ta找的那个tokenizer能不能识别方言
+[META] 214 jj_sparkle 2021-05-12 00:40:10+00:00
+[MESSAGE] 不能
+[META] 215 None 2021-05-12 01:39:48+00:00
+[MESSAGE] BM25 added
+[META] 216 None 2021-05-12 01:40:04+00:00
+[MESSAGE] 我把BM25加进去了
+[META] 217 None 2021-05-12 01:40:09+00:00
+[MESSAGE] 测试效果还可以
+[META] 218 None 2021-05-12 01:40:27+00:00
+[MESSAGE] 但是没有大的数据支持 只有很少的数据支持
+[META] 219 jj_sparkle 2021-05-12 01:42:05+00:00
+[MESSAGE] 😂能微信发一下吗
+[META] 220 jj_sparkle 2021-05-12 01:42:09+00:00
+[MESSAGE] 谢谢！
+[META] 221 jj_sparkle 2021-05-12 01:42:32+00:00
+[MESSAGE] 我没在电脑上装telegram
+[META] 222 None 2021-05-12 01:42:55+00:00
+[MESSAGE] 没事没事
+[META] 223 None 2021-05-12 01:42:57+00:00
+[MESSAGE] 客气啦
+[META] 224 None 2021-05-12 01:43:13+00:00
+[MESSAGE] 电脑上面这个发消息的声音真好听
+[META] 225 None 2021-05-12 01:43:21+00:00
+[MESSAGE] 嘟嘟嘟地
+[META] 226 mirarifang 2021-05-12 02:11:24+00:00
+[MESSAGE] 我发现一个问题 我记聊天记录的时候只记了发言人的username
+[META] 227 mirarifang 2021-05-12 02:11:36+00:00
+[MESSAGE] 但是 Lijian 你没有username所以显示的是None
+[META] 228 None 2021-05-12 02:11:48+00:00
+[MESSAGE] 我看看去
+[META] 229 mirarifang 2021-05-12 02:11:48+00:00
+[MESSAGE] 这个应该无所谓吧
+[META] 230 None 2021-05-12 02:12:00+00:00
+[MESSAGE] 我加一个username 没注意到之前
+[META] 231 None 2021-05-12 02:12:12+00:00
+[MESSAGE] 应该问题不大
+[META] 232 None 2021-05-12 02:12:46+00:00
+[MESSAGE] 现在设置了
+[META] 233 mirarifang 2021-05-12 02:12:57+00:00
+[MESSAGE] ok
+[META] 234 mirarifang 2021-05-12 02:13:15+00:00
+[MESSAGE] 你在发一条我看看能不能识别
+[META] 235 None 2021-05-12 02:13:30+00:00
+[MESSAGE] 好哒好哒
+[META] 236 None 2021-05-12 02:13:39+00:00
+[MESSAGE] 也可能反应慢网络
+[META] 237 mirarifang 2021-05-12 02:14:39+00:00
+[MESSAGE] okok 现在应该可以了
+[META] 238 lijianzhao 2021-05-12 02:14:47+00:00
+[MESSAGE] 稳！
+[META] 239 jj_sparkle 2021-05-12 02:48:00+00:00
+[MESSAGE] Query likelihood要加上去吗
+[META] 240 jj_sparkle 2021-05-12 02:48:07+00:00
+[MESSAGE] bm25我搞完了
+[META] 241 lijianzhao 2021-05-12 02:54:09+00:00
+[MESSAGE] query likelihood 是不是功能和这个bm25差不多啊
+[META] 242 jj_sparkle 2021-05-12 02:54:40+00:00
+[MESSAGE] 差不多吧
+[META] 243 jj_sparkle 2021-05-12 02:54:42+00:00
+[MESSAGE] 大概
+[META] 244 lijianzhao 2021-05-12 02:55:26+00:00
+[MESSAGE] 你那边举个例子
+[META] 245 lijianzhao 2021-05-12 02:55:31+00:00
+[MESSAGE] 出来的结果怎么样
+[META] 246 lijianzhao 2021-05-12 02:55:41+00:00
+[MESSAGE] 比如搜索
+[META] 247 lijianzhao 2021-05-12 02:56:02+00:00
+[MESSAGE] “我的“
+[META] 248 jj_sparkle 2021-05-12 02:56:52+00:00
+[MESSAGE] 我还没写query likelihood
+[META] 249 jj_sparkle 2021-05-12 02:56:58+00:00
+[MESSAGE] 你要对比哪两个啊
+[META] 250 lijianzhao 2021-05-12 02:57:07+00:00
+[MESSAGE] 不是不是
+[META] 251 lijianzhao 2021-05-12 02:57:10+00:00
+[MESSAGE] 就是bm25
+[META] 252 lijianzhao 2021-05-12 02:57:14+00:00
+[MESSAGE] 出来的结果
+[META] 253 lijianzhao 2021-05-12 02:57:18+00:00
+[MESSAGE] 不是对比
+[META] 254 jj_sparkle 2021-05-12 02:58:03+00:00
+[MESSAGE] 哦哦哦哦
+[META] 255 jj_sparkle 2021-05-12 02:59:47+00:00
+[MESSAGE] 
+[META] 256 jj_sparkle 2021-05-12 02:59:47+00:00
+[MESSAGE] 
+[META] 257 lijianzhao 2021-05-12 03:01:12+00:00
+[MESSAGE] 
+[META] 258 lijianzhao 2021-05-12 03:01:18+00:00
+[MESSAGE] 喔喔 结果也可以的
+[META] 259 jj_sparkle 2021-05-12 03:02:23+00:00
+[MESSAGE] 啊 是吗hhhh
+[META] 260 lijianzhao 2021-05-12 03:02:33+00:00
+[MESSAGE] 😂
+[META] 261 jj_sparkle 2021-05-12 03:02:37+00:00
+[MESSAGE] 我咋感觉没啥关系😂😂😂
+[META] 262 jj_sparkle 2021-05-12 03:02:40+00:00
+[MESSAGE] 尴尬
+[META] 263 lijianzhao 2021-05-12 03:02:53+00:00
+[MESSAGE] 不敢说出来 毕竟是花了时间写的
+[META] 264 lijianzhao 2021-05-12 03:03:42+00:00
+[MESSAGE] 1-2是哪条消息啊
+[META] 265 lijianzhao 2021-05-12 03:03:55+00:00
+[MESSAGE] 喔喔
+[META] 266 lijianzhao 2021-05-12 03:04:01+00:00
+[MESSAGE] 1-2 是“你好吗：
+[META] 267 lijianzhao 2021-05-12 03:04:16+00:00
+[MESSAGE] 其实匹配的可以啦
+[META] 268 lijianzhao 2021-05-12 03:04:49+00:00
+[MESSAGE] 把“你好” 已经匹配到了 但是因为咱们数据库太小了
+[META] 269 lijianzhao 2021-05-12 03:04:56+00:00
+[MESSAGE] 所以显得没有合适的信息
+[META] 270 jj_sparkle 2021-05-12 03:05:13+00:00
+[MESSAGE] 也是
+[META] 271 jj_sparkle 2021-05-12 03:05:19+00:00
+[MESSAGE] 对的
+[META] 272 lijianzhao 2021-05-12 03:05:49+00:00
+[MESSAGE] @mirarifang 你的数据能弄出来吗
+[META] 273 mirarifang 2021-05-12 03:06:00+00:00
+[MESSAGE] 可以
+[META] 274 lijianzhao 2021-05-12 03:06:05+00:00
+[MESSAGE] 我们可以让peiwen跑一下
+[META] 275 lijianzhao 2021-05-12 03:06:08+00:00
+[MESSAGE] 看看效果
+[META] 276 mirarifang 2021-05-12 03:07:15+00:00
+[MESSAGE] 
+[META] 277 mirarifang 2021-05-12 03:07:17+00:00
+[MESSAGE] 
+[META] 278 lijianzhao 2021-05-12 03:09:12+00:00
+[MESSAGE] 看起来需要改改格式 改成json
+[META] 279 mirarifang 2021-05-12 03:09:32+00:00
+[MESSAGE] 现在这个是一行meta一行message
+[META] 280 mirarifang 2021-05-12 03:09:48+00:00
+[MESSAGE] 直接read进来parse一下就行
+[META] 281 lijianzhao 2021-05-12 03:10:00+00:00
+[MESSAGE] 咱们return是要return
+[META] 282 lijianzhao 2021-05-12 03:10:20+00:00
+[MESSAGE] message id就够了
+[META] 283 lijianzhao 2021-05-12 03:10:23+00:00
+[MESSAGE] 喔喔
+[META] 284 mirarifang 2021-05-12 03:10:45+00:00
+[MESSAGE] 现在是message id，username，datetime
+[META] 286 jj_sparkle 2021-05-12 03:12:37+00:00
+[MESSAGE] 🥲能不能发微信呀
+[META] 287 jj_sparkle 2021-05-12 03:12:42+00:00
+[MESSAGE] 文件的话
+[META] 288 jj_sparkle 2021-05-12 03:12:43+00:00
+[MESSAGE] 谢谢
+[META] 289 lijianzhao 2021-05-12 03:12:47+00:00
+[MESSAGE] 我来发
+[META] 290 jj_sparkle 2021-05-12 03:13:05+00:00
+[MESSAGE] txt也可以的 不一定要json的
+[META] 291 lijianzhao 2021-05-12 03:13:12+00:00
+[MESSAGE] 我发了
+[META] 292 lijianzhao 2021-05-12 03:13:20+00:00
+[MESSAGE] 我把两个文件整合到一起了
+[META] 293 lijianzhao 2021-05-12 03:14:06+00:00
+[MESSAGE] 咱们目前就是相当于只有一个chat_id
+[META] 294 jj_sparkle 2021-05-12 03:14:22+00:00
+[MESSAGE] 哦哦哦好的
+[META] 295 jj_sparkle 2021-05-12 03:14:30+00:00
+[MESSAGE] 那我改一下好了
+[META] 296 jj_sparkle 2021-05-12 03:15:15+00:00
+[MESSAGE] 这个demo的时候
+[META] 297 jj_sparkle 2021-05-12 03:15:22+00:00
+[MESSAGE] 从哪个步骤开始啊
+[META] 298 jj_sparkle 2021-05-12 03:15:43+00:00
+[MESSAGE] @mirarifang 你的log文件是实时写上去的吗
+[META] 299 jj_sparkle 2021-05-12 03:16:08+00:00
+[MESSAGE] 就比如我现在给你发了这个消息 你的log文件就马上写上去了？
+[META] 300 mirarifang 2021-05-12 03:16:20+00:00
+[MESSAGE] 对
+[META] 301 jj_sparkle 2021-05-12 03:16:24+00:00
+[MESSAGE] ok
