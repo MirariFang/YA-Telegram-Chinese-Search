@@ -61,10 +61,10 @@ Place your log files in `/sample_logs` and restart the tokenizer. Note that it s
 
 ## Contact
 
-Zhengqi Fang - zf4@illinois.edu
-Bingxi Liu - bingxil2@illinois.edu
-Jianjia Zhang - jianjia2@illinois.edu
-Peiwen Jiang - pj2@illinois.edu
+- Zhengqi Fang - zf4@illinois.edu
+- Bingxi Liu - bingxil2@illinois.edu
+- Jianjia Zhang - jianjia2@illinois.edu
+- Peiwen Jiang - pj2@illinois.edu
 
 ## Acknowledgements
 
