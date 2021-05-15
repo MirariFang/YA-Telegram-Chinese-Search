@@ -8,7 +8,7 @@ echo "Start to download the StanfordCoreNLP packages, it takes a while"
 wget --no-check-certificate http://nlp.stanford.edu/software/stanford-corenlp-full-2018-02-27.zip
 unzip stanford-corenlp-full-2018-02-27.zip
 rm stanford-corenlp-full-2018-02-27.zip
-cd tokenizer-server
+cd stanford-corenlp-full-2018-02-27
 
 # Get the Chinese model
 echo "Start to download the Chinese language model, it takes a while"
